@@ -27,7 +27,6 @@ WiFiClientSecure client1;
 /* Assign a unique ID to this sensor at the same time */
 //LSM303 Compass
 Adafruit_LSM303_Mag_Unified mag = Adafruit_LSM303_Mag_Unified(12345);
-
 //LSM303 Accelemeter
 Adafruit_LSM303_Accel_Unified accel = Adafruit_LSM303_Accel_Unified(54321);
 
