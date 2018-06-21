@@ -10,7 +10,7 @@
 const char* ssid = "DESKTOP-78EVTDF 0993"; // Used for Wifi- wifi username
 const char* password = "jayjay108"; // Used for Wifi - wifi password
 
-const char* mqtt_server = "146.169.208.74"; // MQTT- IP address
+const char* mqtt_server = "146.169.221.235"; // MQTT- IP address
 const char* mqtt_password =""; // MQTT
 const char* mqtt_topic = "Jason/AVDetection"; // MQTT
 int mqttRetiresLeft = 10;
@@ -189,7 +189,7 @@ void loop()
     }
     else if (maximumcount = sensor0count)
     {
-      detecteddir = "Detected at 0 ";
+      detecteddir = "Detected at 0";
     }
     else if (maximumcount = sensor45count)
     {
